@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-emerald-500 font-semibold transition-transform rounded-md shadow-md hover:bg-emerald-600 hover:-translate-y-0.5 focus:ring-opacity-75;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-display: swap;
+    src: url(../fonts/Montserrat.ttf);
+  }
+}
