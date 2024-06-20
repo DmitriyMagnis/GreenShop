@@ -1,10 +1,13 @@
 function Home() {
   return (
-    <div>
-      <button className="btn-primary text-white" type="button">
-        button
-      </button>
-    </div>
+    <>
+      {/* <section className="">Welcome</section>
+      <section className="">Shop</section>
+      <section className="">Advertisement</section>
+      <section className="">BlogPOsts</section>
+      <section> Subscription</section>
+      <section> Contact</section> */}
+    </>
   );
 }
 
